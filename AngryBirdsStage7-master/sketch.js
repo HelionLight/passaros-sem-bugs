@@ -105,7 +105,7 @@ async function horas(){
     var diahora = respostasjson.datetime;
     var hora = diahora.slice(11,13); 
     console.log(hora);
-    if(hora>=06 && hora<=18){
+    if(hora>=6 && hora<=18){
         bg = "sprites/bg.png";
     }
     else{
